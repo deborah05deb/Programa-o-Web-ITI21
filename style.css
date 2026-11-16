@@ -1,8 +1,8 @@
 /* Gota Pura – tema futurista. HTML e CSS puros*/
 * { box-sizing: border-box; }
-body { margin: 0; font-family: Verdana, Arial, sans-serif; color: #CFE8EE; line-height: 1.6; background-color: #04111F; }
+body { margin: 0; font-family: Verdana, Arial, sans-serif; color: #CFE8EE; background-color: #04111F; }
 h1, h2, h3 { font-family: Georgia, serif; color: #FFFFFF; margin: 0 0 12px 0; }
-a { color: inherit; text-decoration: none; }
+a { color: #CFE8EE;}
 ul { list-style: none; margin: 0; padding: 0; }
 
 /* Cabeçalho */
@@ -53,7 +53,6 @@ display: flex;
 align-items: center;
 min-height: 520px;
 padding: 80px 48px;
-overflow: hidden;
 background-color: #04111F;
 }
 .hero-fundo
@@ -61,7 +60,7 @@ background-color: #04111F;
 position: absolute;
 top: 0;
 right: 0;
-width: 70%;
+width: 700px;
 opacity: 0.85;
 }
 
@@ -112,7 +111,6 @@ padding: 10px 22px;
 .bloco h2 { font-size: 34px; }
 .intro { margin: 0 0 28px 0; }
 .linha { display: flex; gap: 24px; margin-top: 24px; }
-.intro + .linha { margin-top: 0; }
 
 /* Painéis do dashboard */
 .painel { flex-grow: 1; flex-shrink: 1; flex-basis: 280px; padding: 24px; background-color: #0A2236; border: 1px solid #12506A; border-radius: 16px; box-shadow: 0 0 16px rgba(25,201,216,0.18); }
@@ -164,5 +162,5 @@ tr:hover td { background-color: #123B52; }
 .rodape-coluna { flex-grow: 1; flex-shrink: 1; flex-basis: 200px; }
 .rodape h3 { font-size: 18px; }
 .rodape li { margin-bottom: 6px; }
-.rodape a:hover { color: #19C9D8; text-decoration: underline; }
+.rodape a:hover { color: #19C9D8;}
 .direitos { margin: 32px 0 0 0; padding-top: 16px; border-top: 1px solid #12506A; font-size: 14px; }
